@@ -1,0 +1,23 @@
+:root{
+    /*representan valores por defecto para toda la página*/
+    font-size: 16px;
+}
+
+/* selector universal que en vez de que todo el texto sea rojo con ROOT, pero podés reiniciar valores por defecto*/
+*{
+    /*reinicia valores*/
+
+}
+h1{
+    color: red;
+    font-family: Arial;
+    font-size: 16px; /*tamaño fuente por defecto*/
+
+}
+main{
+    font-size: 20px;
+    color:blue
+}
+.mainSection{
+    font-size: 3em; /*tamaño relativo de la caja*/
+}

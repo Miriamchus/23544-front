@@ -1,0 +1,38 @@
+/*importo fuente de Google*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    --primary-text-color: #EF3054;
+    --primary-text-color-complement: #4faabc;
+    font-family: "ubuntu";
+}
+.mainHeader{
+    text-align: center;
+    background: burlywood;
+}
+.mainHeader_img{
+    width: 20vw;
+    border-radius: 50%;
+}
+.mainHeader_title{
+    display: inline;
+    text-transform: uppercase;
+}
+.mainCV{
+    background: rgb(203, 205, 103);
+    width: 80vw;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.mainCV_informacion_title{
+    color: var(--primary-text-color);
+    text-transform: capitalize;
+    font-size: 1.8em;
+}
+.mainCV_informacion_title_item{
+    list-style: none;
+    font-size: 1.2em;
+    color: var(--primary-text-color-complement);
+}
+.mainCV_informacion_title_item span{
+    font-weight: 300;
+}

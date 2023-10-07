@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML semantica</title>
+    <!--2da forma de estilo-->
+    <style>
+        /*esto es un comentario en CSS*/
+        /*modifica el html*/
+        /*lenguaje CSS*/
+        /*1ra regla para la etiqueta <a>*/
+         /*selector de etiqueta*/
+         a{
+            color:green;
+         }   
+
+    </style>
+    <!--3er forma de agregar estilos, forma EXTERNA-->
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <!--header-->
+    <!--1er forma de estilo-->
+    <header>
+        <h1 style="color: red; text-align: center;">Partidos de primera</h1>
+    </header>
+
+    <!--Barra de navegación-->
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">Home</a>Link1
+            </li>
+            <li>
+                <a href="./tablas.html">Link2</a>
+            </li>
+            <li>
+                <a href="./alumno.html">Link3</a>
+            </li>
+        </ul>
+        </ul>
+    </nav>
+
+    <!--contenido principal-->
+    <main>
+        <section> <!--seccion dentro de un documento principal-->
+            <h3 id="eq">Equipos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor placeat quaerat possimus? Quo nesciunt dolorem maiores fugiat, quaerat facere sequi aliquam aut quam, quis nihil quasi aspernatur, quos autem rerum.</p>
+            
+        </section>
+    </main>
+    <article>
+        <!--se recomienda usar fuera del mail, es un articulo independiente, por fuera-->
+        <!--informacion independiente-->
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae natus optio laboriosam, harum cum magni dignissimos eveniet suscipit sed ratione est provident temporibus. Error culpa recusandae sunt, porro sequi nihil.</p>
+    </article>
+    <aside>
+        <!--usado para publicidad-->
+        <h4>venta de autos</h4>
+        <img src="">
+    </aside>
+
+    <!--cierre, pie de página-->
+    <hr>
+    <footer>
+        <h5 class="textoVerde">Contacto</h5>
+        <form action="contacto.html">
+            <label>Mensaje</label>
+            <textarea>
+                
+            </textarea>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+        <h5>Mapa de sitio</h5>
+        <ul>
+            <li>
+                Home
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

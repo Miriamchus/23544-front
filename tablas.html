@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML clase 2</title>
+</head>
+
+<body>
+    <h1>Listado de alumnos</h1>
+    <table border="1" width="100%">
+        <!--THEAD son los títulos de la tabla-->
+        <thead>
+            <tr><!--fila-->
+                <th><!--título de columna-->
+                    NOMBRE
+                </th>
+                <th>
+                    APELLIDO
+                </th>
+                <th>
+                    DNI
+                </th>
+                <th>
+                    EMAIL
+                </th>
+                <th>
+                    CURSO
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        
+        <!--datos de la tabla TBODY-->
+        <tbody>
+            <tr align="center"><!--fila. El centrado con ALIGN se puede hacer por fila o celda. 
+                Nunca por tabla-->
+                <td>
+                    Carlos
+                </td>
+                <td>
+                    Gomez
+                </td>
+                <td>
+                    <a href="alumno.html">30123456</a>
+                </td>
+                <td>
+                    carlosgomez@hotmail.com
+                </td>
+                <td>
+                    SQL
+                </td>
+            </tr>
+            <tr align="center">
+                <td>
+                    María
+                </td>
+                <td>
+                    Santos
+                </td>
+                <td>
+                    <a href="alumno.html">40155670</a>
+                </td>
+                <td>
+                    msantos@gmail.com
+                </td>
+                <td>
+                    PHP
+                </td>
+                <td width="10%"> 
+                    <img src="https://sadopentrerios.org/wp-content/uploads/2020/08/LOGO-SADOP-ENTRE-RIOS-RGB_Faviconweb-01.png"
+                    width="100%">
+                </td>
+            </tr>
+        </tbody>
+        <!--Resumen: TFOOT-->
+        <tfoot>
+            <tr align="center">
+                <td colspan="2"></td>
+                <td colspan="2">
+                    TOTAL: 2
+                </td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
